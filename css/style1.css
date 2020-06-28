@@ -365,6 +365,7 @@ body {
 .social-icon {
     width: 20px;
     height: 20px;
+    fill: #afb1b8;
 }
 
 .social-icon:hover {
@@ -396,7 +397,10 @@ body {
     width: 170px;
     height: 90px;
 }
-
+.item-client {
+    justify-content: center;
+    align-items: center;
+}
 .client-link:focus,
 .client-link:hover {
     display: block;
