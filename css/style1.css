@@ -348,7 +348,7 @@ body {
 .social-list .item+.item {
     margin-left: 10px;
  }
-.social-link {
+.social-links {
     display: block;
     width: 44px;
     height: 44px;
