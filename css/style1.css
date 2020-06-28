@@ -502,7 +502,23 @@ body {
 .footer_social_network a {
     color: #fff;
 }
+.footer-social-links {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    color: #FFFFFF;
+    background-color: #43444D;
+}
 
+.footer-social-links:focus,
+.footer-social-links:hover{
+    color: #FFFFFF;
+    background-color:  #2196F3;
+
+}
 .portfolio_projects a {
     text-decoration: none;
 }
