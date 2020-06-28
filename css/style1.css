@@ -366,6 +366,10 @@ body {
     width: 20px;
     height: 20px;
 }
+
+.social-icon:hover {
+    fill:#FFFFFF;
+}
 .our_clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -391,11 +395,8 @@ body {
     display: block;
     width: 170px;
     height: 90px;
-
-
-
-  
 }
+
 .client-link:focus,
 .client-link:hover {
     display: block;
@@ -404,6 +405,10 @@ body {
 }
 .our_clients_nav a {
     padding-left: 60px;
+}
+
+.client-icon:hover {
+    fill: #2196F3;
 }
 /*   Style footer                             */
 
