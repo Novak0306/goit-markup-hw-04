@@ -345,7 +345,20 @@ body {
 .social-list {
     display: flex;
 }
+.social-list .item+.item {
+    margin-left: 10px;
+ }
+.social-link {
+    display: block;
+    width: 44px;
+    height: 44px;
 
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
 .our_clients {
     padding-top: 94px;
     padding-bottom: 94px;
