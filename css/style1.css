@@ -344,7 +344,8 @@ body {
 
 .social-list {
     display: flex;
-    margin-left: 32px;
+    padding-left: 32px;
+    padding-bottom: 24px;
 }
 .social-list .item+.item {
     margin-left: 10px;
@@ -356,6 +357,7 @@ body {
     border-radius: 50%;
     background-color: #FFFFFF;
     text-align: center;
+    padding-top: 13px;
 
 
 }
