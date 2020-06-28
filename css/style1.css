@@ -494,13 +494,19 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 20px;
    
 }
 .footer_social_network ul {
     list-style: none;
 }
-.footer_social_network a {
-    color: #fff;
+.footer-social-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-list .item+.item {
+    margin-left: 10px;
 }
 .footer-social-links {
     display: block;
