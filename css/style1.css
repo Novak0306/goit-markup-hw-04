@@ -385,31 +385,30 @@ body {
     margin-left: 30px;
 }
 
-.our_clients_nav  img {
-    display: block;
-    padding-top: 22px;
-}
    
 .client-link {
+    justify-content: center;
+    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: block;
     width: 170px;
     height: 90px;
+    text-align: center;
 }
-.item-client {
-    justify-content: center;
-    align-items: center;
-}
+
 .client-link:focus,
 .client-link:hover {
-    display: block;
+   
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
 .our_clients_nav a {
     padding-left: 60px;
 }
+.client-icon {
+        fill: #afb1b8;
+    }
 
 .client-icon:hover {
     fill: #2196F3;
