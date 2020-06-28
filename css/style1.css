@@ -367,7 +367,9 @@ body {
     height: 20px;
     fill: #afb1b8;
 }
-
+.social-links:hover{
+    background-color:  #2196F3;
+}
 .social-icon:hover {
     fill:#FFFFFF;
 }
@@ -403,9 +405,7 @@ body {
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
-.our_clients_nav a {
-    padding-left: 60px;
-}
+
 .client-icon {
         fill: #afb1b8;
     }
