@@ -71,15 +71,16 @@ body {
 .address-nav {
     display: flex;
     margin-left: auto;
+    
 }
 .address-nav .item+.item {
     margin-left: 30px;
+    
 }
 
-.address-nav a {
-    display: inline-block;
-  
-
+.contact-link {
+    display: flex;
+    align-items: center;
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
@@ -87,6 +88,42 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+
+
+.contact-link::before {
+    display: inline-flex;
+    
+    content: "";
+    width: 16px;
+    
+    margin-right: 10px;
+   
+  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.icon-mail::before {
+
+   
+    background-image: url(../images/mail.svg);
+    width: 16px;
+    height: 11.2px;
+}
+.icon-mail:hover {
+
+    background-image: url(../images/mailhov.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-tel::before {
+  
+    background-image: url(../images/tel.svg);
+    width: 10px;
+    height: 15px;
 }
 
 .logo-studio a span {
@@ -107,16 +144,22 @@ body {
 
 /*   Style main                               */
 .service {
-    
+    max-width: 1600px;
      text-align: center;
      height: 600px;
      margin-left: auto;
      margin-right: auto;
      
    
+ 
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8))  , url("../images/serv.jpg");
+        background-repeat:no-repeat ;
+        background-size: cover;
+       
+        background-position: center;
+        background-color: rgba(47, 48, 58, 0.8);
         
-        background-image: url("../css/image/service.png");
-        background: rgba(47, 48, 58, 0.8);
         
      
 }
@@ -124,6 +167,7 @@ body {
 .container-service {
     padding-top: 200px;
     padding-bottom: 200px;
+    
     
 }
 
@@ -164,22 +208,24 @@ body {
     margin-left: 30px;
 }
 
-.features-navigation li{
+
+
+.features-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.features-item{
     display: block;
     width: 270px;
-
-}
-.img-fon {
-    text-align: center;
-    display: block;
-   
     height: 120px;
-    background: #F5F4FA;
+    background-color:#F5F4FA; 
     border-radius: 4px;
-    padding-top: 25px;
- 
 }
-.features-navigation h3 {
+
+
+
+ .features-navigation h3 {
     padding-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -290,6 +336,11 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.social-list {
+    display: flex;
+}
+
 .our_clients {
     padding-top: 94px;
     padding-bottom: 94px;
