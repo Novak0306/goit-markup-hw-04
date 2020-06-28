@@ -358,6 +358,7 @@ body {
     background-color: #FFFFFF;
     text-align: center;
     padding-top: 13px;
+    color: #afb1b8;
 
 
 }
@@ -365,14 +366,18 @@ body {
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
+    fill: currentColor;
 }
 .social-links:hover{
+    color: #FFFFFF;
     background-color:  #2196F3;
 }
+/*
 .social-icon:hover {
     fill:#FFFFFF;
+    background-color:  #2196F3;
 }
+*/
 .our_clients {
     padding-top: 94px;
     padding-bottom: 94px;
