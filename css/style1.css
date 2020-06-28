@@ -210,10 +210,7 @@ body {
 
 
 
-.features-icon {
-    width: 70px;
-    height: 70px;
-}
+
 
 .features-item{
     display: block;
@@ -223,6 +220,12 @@ body {
     border-radius: 4px;
 }
 
+.features-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
 
 
  .features-navigation h3 {
