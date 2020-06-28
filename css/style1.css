@@ -218,13 +218,14 @@ body {
     height: 120px;
     background-color:#F5F4FA; 
     border-radius: 4px;
+    align-items: center;
+    padding-top: 25px;
 }
 
 .features-icon {
     width: 70px;
     height: 70px;
-    text-align: center;
-    padding-top: 25px;
+   
 }
 
 
