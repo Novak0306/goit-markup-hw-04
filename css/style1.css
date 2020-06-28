@@ -368,6 +368,8 @@ body {
     height: 20px;
     fill: currentColor;
 }
+
+.social-links:focus,
 .social-links:hover{
     color: #FFFFFF;
     background-color:  #2196F3;
@@ -402,22 +404,21 @@ body {
     width: 170px;
     height: 90px;
     text-align: center;
+    color: #afb1b8;
 }
 
 .client-link:focus,
 .client-link:hover {
-   
+    color: #2196F3 ;
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
 
 .client-icon {
-        fill: #afb1b8;
+        fill: currentColor;
     }
 
-.client-icon:hover {
-    fill: #2196F3;
-}
+
 /*   Style footer                             */
 
 .footer_studio {
