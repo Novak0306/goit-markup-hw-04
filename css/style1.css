@@ -213,14 +213,15 @@ body {
 
 
 .features-item{
-    display: block;
+    display: inline-flex;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color:#F5F4FA; 
     border-radius: 4px;
     align-items: center;
-    padding-top: 25px;
-    text-align: center;
+    
+
 }
 
 .features-icon {
@@ -351,16 +352,14 @@ body {
     margin-left: 10px;
  }
 .social-links {
-    display: block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    text-align: center;
-    padding-top: 13px;
-    color: #afb1b8;
-
-
+     color: #afb1b8;
 }
 
 .social-icon {
