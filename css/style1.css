@@ -90,40 +90,18 @@ body {
     color: #757575;
 }
 
-
-
-.contact-link::before {
-    display: inline-flex;
-    
-    content: "";
-    width: 16px;
-    
+.icon-mail {
     margin-right: 10px;
-   
-  
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-.icon-mail::before {
-
-   
-    background-image: url(../images/mail.svg);
     width: 16px;
     height: 11.2px;
-}
-.icon-mail:hover {
-
-    background-image: url(../images/mailhov.svg);
-    background-repeat: no-repeat;
+    fill:currentColor;
 }
 
-.icon-tel::before {
-  
-    background-image: url(../images/tel.svg);
+.icon-tel {
+    margin-right: 10px;
     width: 10px;
     height: 15px;
+    fill:currentColor;
 }
 
 .logo-studio a span {
