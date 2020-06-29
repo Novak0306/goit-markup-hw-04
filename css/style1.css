@@ -396,14 +396,15 @@ body {
 
    
 .client-link {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    display: block;
+    
     width: 170px;
     height: 90px;
-    text-align: center;
+    
     color: #afb1b8;
 }
 
@@ -415,8 +416,7 @@ body {
 }
 
 .client-icon {
-    width: 20px;
-    height: 20px;
+   
         fill: currentColor;
     }
 
